@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Unlocking Android",
+    "isbn": "1933988673",
+    "pageCount": 416,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
+    "shortDescription": "Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout.",
+    "authors": "W. Frank Ableson"
+  },
+  {
+    "title": "Flexible Rails",
+    "isbn": "1933988509",
+    "pageCount": 592,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong.jpg",
+    "shortDescription": "\"Flexible Rails created a standard to which I hold other technical books. You definitely get your money's worth.\"",
+    "author": "Peter Armstrong"
+  },
+  {
+    "title": "MongoDB in Action",
+    "isbn": "1935182870",
+    "pageCount": 0,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "shortDescription": "MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.",
+    "author": "Kyle Banker"
+  },
+  {
+    "title": "jQuery in Action",
+    "isbn": "1933988355",
+    "pageCount": 376,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault.jpg",
+    "shortDescription": "\"The best-thought-out and researched piece of literature on the jQuery library.\" --From the forward by John Resig, Creator of jQuery",
+    "author": "Bear Bibeault"
+  },
+  {
+    "title": "Ruby for Rails",
+    "isbn": "1932394699",
+    "pageCount": 532,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/black.jpg",
+    "shortDescription": "The word is out: with Ruby on Rails you can build powerful Web applications easily and quickly! And just like the Rails framework itself, Rails applications are Ruby programs. That means you can   t tap into the full power of Rails unless you master the Ruby language.",
+    "author": "David A. Black"
+  },
+  {
+    "title": "Website Owner's Manual",
+    "isbn": "1933988452",
+    "pageCount": 296,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/boag.jpg",
+    "shortDescription": "Website Owner's Manual helps you form a vision for your site, guides you through the process of selecting a web design agency, and gives you enough background information to make intelligent decisions throughout the development process. This book provides a jargon-free overview of web design, including accessibility, usability, online marketing, and web development techniques. You'll gain a practical understanding of the technologies, processes, and ideas that drive a successful website.",
+    "authors": "Paul A. Boag"
+  }
+]

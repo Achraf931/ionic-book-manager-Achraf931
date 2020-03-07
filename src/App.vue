@@ -1,32 +1,52 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <ion-app id="app">
+        <ion-header>
+            <ion-padding>
+                <ion-toolbar>
+                    <ion-title style="text-align: start; padding: 15px; font-weight: bold">BOOKZ<img style="width: 20px; height: 20px; position: absolute; right: 15px" @click="openModal" src="@/assets/plus.png" alt="add book"></ion-title>
+                        </ion-title>
+                </ion-toolbar>
+            </ion-padding>
+        </ion-header>
+        <ion-content>
+            <books></books>
+        </ion-content>
+    </ion-app>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+    import Books from '@/components/Books'
+    import Modal from '@/components/Modal'
+    export default {
+        components: {
+            Books,
+        },
+        methods: {
+            openModal() {
+                return this.$ionic.modalController
+                    .create({
+                        component: Modal,
+                        componentProps: {
+                            data: {
+                                content: 'New Content',
+                            },
+                            propsData: {
+                                title: 'New title',
+                            }
+                        }
+                    })
+                    .then(m => m.present())
+            }
+        }
     }
-  }
-}
+</script>
+<style lang="scss">
+    #app {
+        font-family: "Montserrat Alternates", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        width: 100vw;
+        height: 100vh;
+    }
 </style>
